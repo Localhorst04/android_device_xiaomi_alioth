@@ -44,3 +44,4 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/xiaomi/alioth/sepolicy/private/xiaomi/display \
     device/xiaomi/alioth/sepolicy/private/xiaomi/hardware \
     device/xiaomi/alioth/sepolicy/private/xiaomi/sensors \
+    device/xiaomi/alioth/sepolicy/private/xiaomi/vold
