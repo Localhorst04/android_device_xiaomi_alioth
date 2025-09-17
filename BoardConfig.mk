@@ -104,6 +104,8 @@ BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_alioth
 
 # Kernel
+BOARD_BOOT_HEADER_VERSION := 3
+BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_CMDLINE := \
     androidboot.hardware=qcom \
     androidboot.init_fatal_reboot_target=recovery \
@@ -121,7 +123,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_RAMDISK_OFFSET := 0x01000000
 BOARD_RAMDISK_USE_LZ4 := true
 
-KERNEL_DEFCONFIG := vendor/alioth_defconfig
+TARGET_KERNEL_CONFIG := vendor/alioth_defconfig
 
 KERNEL_LLVM_SUPPORT := true
 

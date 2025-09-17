@@ -16,6 +16,8 @@ android_app {
     privileged: true,
 
     static_libs: [
-        "co.aospa.resources",
+        "androidx.core_core",
+        "androidx.preference_preference",
+        "com.google.android.material_material",
     ],
 }

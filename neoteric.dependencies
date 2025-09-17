@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "Localhorst04/kernel_xiaomi_sm8250",
+        "target_path":  "kernel/xiaomi/alioth",
+        "revision":     "staging"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_halimpl",
+        "target_path":  "vendor/nxp/opensource/halimpl",
+        "revision":     "vauxite-SN100X-legacy"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_hidlimpl",
+        "target_path":  "vendor/nxp/opensource/hidlimpl",
+        "revision":     "vauxite-SN100X-legacy"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource /audio-hal/primary-hal",
+        "revision":     "lineage-23.0-caf-sm8250"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom-caf/sm8250/display",
+        "revision":     "vauxite-865"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom-caf/sm8250/media",
+        "revision":     "vauxite-865"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom-caf/sm8250/gps",
+        "revision":     "vauxite-legacy-component"
+    }
+]
