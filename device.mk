@@ -481,24 +481,35 @@ PRODUCT_PACKAGES += \
     libjson
 
 # QTI
+# TARGET_COMMON_QTI_COMPONENTS := \
+#     adreno \
+#     alarm \
+#     audio \
+#     av \
+#     bt \
+#     charging \
+#     display \
+#     gps \
+#     init \
+#     keymaster \
+#     media \
+#     overlay \
+#     perf \
+#     telephony \
+#     usb \
+#     wfd \
+#     wlan
+
+
+# QTI Components
 TARGET_COMMON_QTI_COMPONENTS := \
-    adreno \
     alarm \
-    audio \
-    av \
     bt \
-    charging \
     display \
-    gps \
-    init \
-    keymaster \
-    media \
     overlay \
     perf \
     telephony \
-    usb \
-    wfd \
-    wlan
+    wfd
 
 TARGET_NFC_SKU := pro
 
@@ -601,3 +612,4 @@ PRODUCT_COPY_FILES += \
 # WFD
 PRODUCT_PACKAGES += \
     libwfdaac_vendor:32
+    

@@ -104,10 +104,10 @@ BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_alioth
 
 # Kernel
-BOARD_BOOT_HEADER_VERSION := 3
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_CMDLINE := \
     androidboot.hardware=qcom \
+    androidboot.selinux=permissive \
     androidboot.init_fatal_reboot_target=recovery \
     androidboot.usbcontroller=a600000.dwc3 \
     cgroup.memory=nokmem,nosocket \
